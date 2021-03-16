@@ -8,3 +8,8 @@ document.querySelector("h1").classList.toggle("huge");
 //Html using JS
 document.querySelector("h1").innerHTML="<em>HTml usning JS</em>";
 document.querySelector("li a").textContent="using text content";
+//JS manupulate Element attribute
+document.querySelector("a").attributes;
+document.querySelector("a").getAttribute("href");
+document.querySelector("a").setAttribute("href","https://www.bing.com");
+
